@@ -1,0 +1,12 @@
+{
+  "name": "my-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "print-args": "yarn workspaces foreach --all run print-args foo",
+    "print-args-bar": "yarn workspaces foreach --all run print-args bar"
+  },
+  "packageManager": "yarn@4.1.1"
+}

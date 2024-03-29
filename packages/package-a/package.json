@@ -1,0 +1,11 @@
+{
+  "name": "package-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "package-cli": "^1.0.0"
+  },
+  "scripts": {
+    "print-args": "echo-args"
+  }
+}

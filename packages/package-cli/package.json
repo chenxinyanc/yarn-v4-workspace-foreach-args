@@ -1,0 +1,8 @@
+{
+  "name": "package-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "echo-args": "./index.js"
+  }
+}
